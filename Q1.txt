@@ -1,0 +1,6 @@
+var Employee = new Array ("Ahmed" , "Saad", "Omar", "Mohammed","Rami ","Salem");
+var Jobrole=  new Array ("Programmer", "Engineer","Accountant","CEO","Programmer ","Analyst");
+var Experience = new Array ("6", "3","1","5","2","8");
+for ( var n in Employee ){
+  document.write (" Employee name : " + Employee[n] + " | Job role:"+ Jobrole[n]+ " |  Experience:"+  Experience[n]+"<br>" )
+}
